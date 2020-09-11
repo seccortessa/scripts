@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+    <node 
+        pkg="turtlesim" 
+        type="turtlesim_node" 
+        name="pedro"
+    />
+
+    <node pkg="rviz" type="rviz" name="visualizer" />
+
+</launch>
